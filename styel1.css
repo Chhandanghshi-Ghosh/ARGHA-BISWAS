@@ -28,3 +28,25 @@ body{
     font-family: Georgia, serif;
     font-size: 20;
 }
+
+.tab {
+    overflow: hidden;
+    background-color: peru;
+    width: 100%;
+  }
+
+  .tab button {
+    background-color:peru;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .tablinks{
+      background-color: rgb(27, 90, 228) ;
+      font-size: 20;
+      font-family: 'Cinzel Decorative', cursive ;
+  }
