@@ -23,7 +23,6 @@ body {
 }
 
 #copy_right_footer{
-    position: fixed;
     text-align: center ;
     bottom: 0;
     line-height: 2;
@@ -40,7 +39,7 @@ body {
     background-color: rgb(23, 219, 245);
 }
 
-#videos{
+.twopage{
     background-color:peru ;
 }
 
@@ -58,6 +57,7 @@ h1 {
     font-family: Georgia, serif;
 
 }
+
 
 
 #bio {
@@ -91,6 +91,26 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
+.tab {
+    overflow: hidden;
+    background-color:  rgb(27, 90, 228);
+    width: 100%;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: rgb(27, 90, 228);
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .tablinks{
+      background-color: rgb(27, 90, 228) ;
+      font-size: 20;
+      font-family: 'Cinzel Decorative', cursive ;
+  }
 
